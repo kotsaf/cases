@@ -1,9 +1,11 @@
 import arcade
 
+# настройки экрана
 SCREEN_WINDTH = 1200
 SCREEN_HEIGHT = 1000
 SCREEN_TITLE = 'Pin Pong Game (Inal)'
 
+# класс шарика
 class Ball(arcade.Sprite):
     def __init__(self):
         super().__init__('circle.png', 0.2)
@@ -24,7 +26,7 @@ class Ball(arcade.Sprite):
 
 
 
-
+# класс ракетки
 class Bar(arcade.Sprite):
     def __init__(self):
         super().__init__('bar.png', 0.6)
