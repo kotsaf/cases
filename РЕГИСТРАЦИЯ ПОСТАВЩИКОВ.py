@@ -28,6 +28,7 @@ class Add_dealer(tk.Toplevel):
         print(All_objects)
 
 
+# интерфейс
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
