@@ -12,6 +12,7 @@ def insert_values(value):
     answer_entry.insert(0, value)
 
 
+# сами математические функции 
 def add():
     num1, num2 = get_values()
     res = num1 + num2
