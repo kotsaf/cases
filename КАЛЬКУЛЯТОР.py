@@ -37,6 +37,7 @@ def mul():
     insert_values(res)
 
 
+# настройки окна
 window = tk.Tk()
 window.title('Калькулятор')
 window.geometry("400x400")
