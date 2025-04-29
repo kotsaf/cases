@@ -17,6 +17,7 @@ class User:
 if __name__ == '__main__':
     database = Database()
     while True:
+        # вход
         choice = int(input('Выберите действие:\n1-Вход \n2-Регистрация\n'))
         if choice == 1:
             login = input('Введите логин: ')
