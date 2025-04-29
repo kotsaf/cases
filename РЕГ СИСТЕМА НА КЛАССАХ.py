@@ -4,7 +4,7 @@ class Database:
     def add_user(self, username, password):
          self.data[username] = password
 
-
+# пользователь
 class User:
     """
    Класс пользователя, содержащий атрибуты: логин, пароль.
