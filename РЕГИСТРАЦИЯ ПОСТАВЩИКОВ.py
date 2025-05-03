@@ -3,6 +3,7 @@ from tkinter import Tk, RIGHT, BOTH, RAISED
 
 All_objects = []
 
+# основная логика
 class Add_dealer(tk.Toplevel):
 
     def __init__(self, parent):
